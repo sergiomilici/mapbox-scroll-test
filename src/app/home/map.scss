@@ -1,0 +1,26 @@
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container {
+  margin-top: 200px;
+  margin-bottom: 500px;
+  position: relative;
+  height: 215px;
+  background: blue;
+}
+
+
+.custom-controls {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+
+  button {
+    background-color: #3a7be0;
+    color: white;
+  }
+}
