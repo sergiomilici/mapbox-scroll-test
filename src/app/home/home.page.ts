@@ -13,7 +13,10 @@ export class HomePage implements AfterViewInit {
   }
 
   ngAfterViewInit() {
+    // @ts-ignore
     window.mapboxgl.accessToken = '<YOUR_ACCESS_TOKEN>';
+
+    // @ts-ignore
     const map = new window.mapboxgl.Map({
       container: 'map', // container id
       style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
